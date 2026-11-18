@@ -1,0 +1,23 @@
+# Credentials - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Output (contains tenant asset data)
+*.csv
+*.jsonl
+output/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
